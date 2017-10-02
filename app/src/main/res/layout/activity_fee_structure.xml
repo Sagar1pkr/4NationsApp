@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.sagar.a4nations.FeeStructure">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="337dp"
+        android:layout_height="62dp"
+        android:text="University Fee Structure for Bachelor and Master Degree"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="356dp"
+        android:layout_height="266dp"
+        app:srcCompat="@drawable/mdegree"
+        tools:layout_editor_absoluteX="2dp"
+        tools:layout_editor_absoluteY="36dp"
+        android:layout_above="@+id/imageView8"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="348dp"
+        android:layout_height="233dp"
+        app:srcCompat="@drawable/bdegree"
+        tools:layout_editor_absoluteX="6dp"
+        tools:layout_editor_absoluteY="277dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true" />
+</RelativeLayout>

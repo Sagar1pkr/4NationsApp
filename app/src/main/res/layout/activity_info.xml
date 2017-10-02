@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.sagar.a4nations.Info">
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        app:srcCompat="@drawable/pr_points"
+        android:layout_below="@+id/textView11"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="100dp"
+        android:layout_height="200dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:fontFamily="serif"
+        android:text="Why Study in Australia?"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="29dp"
+        android:fontFamily="serif"
+        android:text="Australia is one of the most beautiful and friendlier nations in the world. Its favorable climate, heartbreaking beaches and outback and one of the most multicultural societies make it one of the most welcoming countries for overseas students. Not only that the growing skill shortage problem in Australia means the international students have higher chance of getting sponsored by Australian sponsored or applying for permanent residency after they complete their studies in Australia if they meet all eligible criteria at that time.
+Australian qualifications are recognized and regarded high throughout the world. Your Australian qualification can become a solid foundation for building your future, boosting your career and prospects for a higher salary. Australian universities, colleges and schools will provide a vibrant, creative and challenging environment in which to develop your potential. Quality standards for Australian institutions are among the best in the world."
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="10sp" />
+
+</RelativeLayout>

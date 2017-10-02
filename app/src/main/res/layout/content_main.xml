@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.sagar.a4nations.MainActivity"
+    tools:showIn="@layout/app_bar_main">
+
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="26dp"
+        android:fontFamily="serif"
+        android:text="Welcome to 4NationsInternational"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="103dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="75dp"
+        android:fontFamily="serif"
+        android:text="Whether you wish to study in Australia, New Zealand and Canada, migrate as skilled worker, Sponsor overseas worker/s, get sponsorship or buy or establish a business, we can help you achieve your goal. Our qualified, experienced and professional team at 4Nations has already helped many people like you. Beginning with the right advice at the first visit until you arrive and start life in the country of your choice, we will be with you at every stage of your transition for professional help. Simply talking to us could save you time, money and make your life easier."
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="8sp" />
+
+</RelativeLayout>
